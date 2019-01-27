@@ -1,0 +1,38 @@
+1°)
+
+	1 - "False 20"
+	2 - "28"
+	3 - "OK"
+	4 -
+	5 - "0"
+
+2°)
+
+	"iabde"
+
+3°)
+
+
+	"un premier texte"
+	"un deuxieme texte"
+	"un deuxieme texte texte à concatener en string"
+	"construction sbuffer texte a concatener en  sbuffer"
+	"construction sbuffer2"
+	"simple construction"
+
+4°)
+
+	public class Start {
+    static int[] f(int [] array, int nb) {
+        array = new int[nb];
+        for(int value: array)
+            System.out.println(++value + " ");
+        return array;
+    }
+    public static void main(String[] args) {
+        int size = 3;
+        int [] array = null;
+        array = f(array, size);
+        for(int value: array)
+            System.out.println(value + " ");
+    }
